@@ -1,0 +1,54 @@
+.sidebar{
+    flex: 1; /*Occupy "1" column or part of total "5" columns of the page"*/
+    height: calc(100vh - 50px); /*preventing slidebar from overflow bottom of the page, 50px is height of navbar */
+    background-color: #41b3a3;
+    position:sticky;
+    top:50x;
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sidebarMenu{
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.sidebarTitle{
+    font-size: 13px;
+
+}
+
+.sidebarList{
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebarListItem{
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    direction: rtl;
+    text-align: right;
+    
+}
+
+.sidebarListItem.active,
+.sidebarListItem.hover{
+    background-color:rgb(5, 131, 114);
+}
+
+
+.sidebarIcon{
+    float: right;
+    margin-left: 5px;
+    font-size: 20px !important;
+}
+
