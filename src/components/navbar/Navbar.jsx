@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.css';
-import {NotificationsNone,Language,AccountCircle,Settings} from '@material-ui/icons';
+import {NotificationsNone,Language,Settings} from '@material-ui/icons';
 import image1 from '../../assets/avatar1.jpg';
 
 export default function Navbar() {
